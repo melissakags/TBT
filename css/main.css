@@ -90,6 +90,9 @@ a:hover {
     background-color: #416361;
     color: #E0E0E0;
 }
+.head1 {
+    font-size: 3em;
+}
 
 .container {
     width: 64em;
