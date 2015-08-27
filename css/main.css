@@ -80,6 +80,9 @@ body{
 
 }
 
+h1 {
+   font-size: 3em; 
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -138,6 +141,7 @@ a:hover {
     margin-right: auto;
     text-transform: uppercase;
     color: inherit;
+    vertical-align: text-bottom;
 
 }
 
@@ -146,6 +150,7 @@ a:hover {
     padding: 1.5em;
 /*  text-decoration: none;
     color: inherit;*/
+    vertical-align: text-bottom;
 }
 
 .maincontent {
@@ -163,6 +168,18 @@ a:hover {
 .videodesc {
     background-color: white;
     color: black;
+
+}
+
+.form-feedback textarea {
+width: 100%;
+}
+
+.form-feedback button {
+    background-color: #416361;
+    width: 25%;
+    color: white;
+    border-radius: 0.35em;
 
 }
 
