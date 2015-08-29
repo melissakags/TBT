@@ -201,7 +201,9 @@ width: 100%;
     padding: 1em;
 }
 
-
+.socialize li {
+    display: inline-block;
+}
 
 
 
