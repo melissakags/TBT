@@ -75,16 +75,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    font-family: Helvetica;
+    font-family: Quicksand;
     font-size: 1.5em;
     /*padding: 30px*/
 
 }
 
 .maincontent h1 {
-   font-family: Tahoma; 
+   font-family: Quicksand; 
    font-size: 2em; 
-   font-style: bold;
+   font-weight: 700;
 }
 a {
     text-decoration: none;
@@ -136,7 +136,8 @@ a:hover {
     background-color: white;
     font-size: 1.5em;
 /*  letter-spacing: .5em;*/
-    font-family: Impact;
+    font-family: Quicksand;
+    font-weight: 700;
     /*height: 180px;*/
 /*  text-decoration: none;*/
     overflow: hidden;
@@ -166,13 +167,17 @@ a:hover {
     clear: both;
     text-align: justify;
     padding: 1em;
+    font-family: Tahoma;
     /* commented out since the video won't fit. box-sizing: border-box;*/
 }
 
-.videodesc {
+.desc {
     background-color: white;
-    color: black;
 
+}
+
+.morevid {
+    
 }
 
 .form-feedback textarea {
@@ -203,7 +208,7 @@ width: 100%;
     color: #E0E0E0;
     text-align: justify;
     padding: 1em;
-    font-family: Tahoma;
+    font-family: Quicksand;
 }
 
 .footer .socialize li {
