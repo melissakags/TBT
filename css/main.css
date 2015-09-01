@@ -75,14 +75,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    font-family: Tahoma;
+    font-family: Helvetica;
     font-size: 1.5em;
     /*padding: 30px*/
 
 }
 
-h1 {
-   font-size: 3em; 
+.maincontent h1 {
+   font-family: Tahoma; 
+   font-size: 2em; 
+   font-style: bold;
 }
 a {
     text-decoration: none;
@@ -201,11 +203,14 @@ width: 100%;
     color: #E0E0E0;
     text-align: justify;
     padding: 1em;
+    font-family: Tahoma;
 }
 
-.socialize li {
+.footer .socialize li {
     display: inline-block;
-    font-family: "Socialitico"
+    font-family: Socialico;
+    font-size: 3.5em;
+    float: right;
 }
 
 
