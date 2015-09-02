@@ -77,6 +77,8 @@ body{
     margin-top: 0;
     font-family: Quicksand;
     font-size: 1.5em;
+    left: 0;
+    right: 0;
     /*padding: 30px*/
 
 }
@@ -101,9 +103,11 @@ a:hover {
 }
 
 .container {
-    width: 64em;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .headbox {
@@ -161,13 +165,15 @@ a:hover {
 .maincontent {
     background-color: white;
     color: #416361;
-    width: 49%;
+    width: 32em;
     margin-left: auto;
     margin-right: auto;
     clear: both;
     text-align: justify;
     padding: 1em;
     font-family: Tahoma;
+    left: 0;
+    right: 0;
     /* commented out since the video won't fit. box-sizing: border-box;*/
 }
 
