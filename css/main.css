@@ -215,6 +215,8 @@ width: 100%;
     text-align: justify;
     padding: 1em;
     font-family: Quicksand;
+    left: 0;
+    right: 0;
 }
 
 .footer .socialize li {
